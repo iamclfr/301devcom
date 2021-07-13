@@ -1,0 +1,28 @@
+{
+  "name": "301devcom",
+  "version": "1.0.0",
+  "description": "301dev.com créé par LAFARGUE Clément",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/app.scss:./public/assets/css/app.css --style compressed",
+    "prefix": "postcss ./public/assets/css/style.css --use autoprefixer -d ./public/assets/css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamclfr/301devcom.git"
+  },
+  "keywords": [
+    "301devcom"
+  ],
+  "author": "301devcom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamclfr/301devcom/issues"
+  },
+  "homepage": "https://github.com/iamclfr/301devcom#readme",
+  "dependencies": {
+    "css-prefix": "0.0.2",
+    "prefixer": "0.0.3",
+    "sass": "^1.35.2"
+  }
+}

@@ -1,0 +1,22 @@
+// BASE
+@import "./base/base";
+@import "./base/fonts";
+
+// COMPONENTS
+@import "./components/animations";
+@import "./components/buttons";
+
+// LAYOUTS
+@import "./layouts/footer";
+@import "./layouts/header";
+
+// PAGES
+@import "./pages/index";
+
+// THEMES
+@import "./themes/dark";
+@import "./themes/light";
+
+// UTILS
+@import "./utils/mixins";
+@import "./utils/variables";
