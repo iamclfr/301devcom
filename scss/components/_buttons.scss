@@ -1,0 +1,343 @@
+// 	TRANSLATE ONE
+.translateOne {
+    text-decoration: none;
+    position: relative;
+    color: #fff;
+    font-family: $poppinsBold;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 1em 2em;
+    z-index: 1;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        background-image: $backgroundMulticolored;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: 10% 0;
+        width: 100%;
+        height: 100%;
+        right: -0.5em;
+        top: 0.5em;
+        border-radius: 4px;
+        transition: all 0.2s ease-in-out;
+        z-index: -1;
+    }
+    
+    &:hover {
+        &::before {
+            right: 0;
+            top: 0;
+        }
+    }
+}
+
+// 	TRANSLATE TWO
+.translateTwo {
+    text-decoration: none;
+    position: relative;
+    color: #fff;
+    font-family: $poppinsBold;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 1em 2em;
+    z-index: 1;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        background-image: $backgroundMulticolored;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: 10% 0;
+        width: 100%;
+        height: 100%;
+        right: 0;
+        top: 0;
+        border-radius: 4px;
+        transition: all 0.2s ease-in-out;
+        z-index: -1;
+    }
+    
+    &:hover {
+        &::before {
+            right: -0.5em;
+        top: 0.5em;
+        }
+    }
+}
+
+// 	TRANSLATE THREE
+.translateThree {
+    text-decoration: none;
+    position: relative;
+    color: #fff;
+    font-family: $poppinsBold;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 1em 2em;
+    z-index: 1;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        background-image: $backgroundMulticolored;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: 10% 0;
+        width: 100%;
+        height: 100%;
+        right: 0;
+        top: 0;
+        border-radius: 4px;
+        transition: all 0.2s ease-in-out;
+        z-index: -1;
+    }
+    
+    &:hover {
+        &::before {
+            width: 0%;
+        }
+    }
+}
+
+// 	TRANSLATE FOUR
+.translateFour {
+    text-decoration: none;
+    position: relative;
+    color: #fff;
+    font-family: $poppinsBold;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 1em 2em;
+    z-index: 1;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        background-image: $backgroundMulticolored;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: 10% 0;
+        width: 100%;
+        height: 100%;
+        right: 0;
+        top: 0;
+        border-radius: 4px;
+        transition: all 0.2s ease-in-out;
+        z-index: -1;
+    }
+    
+    &:hover {
+        &::before {
+            height: 0%;
+        }
+    }
+}
+
+// 	TRANSLATE FIVE
+.translateFive {
+    text-decoration: none;
+    position: relative;
+    color: #fff;
+    font-family: $poppinsBold;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 1em 2em;
+    z-index: 1;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        background-image: $backgroundMulticolored;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: 10% 0;
+        width: 0%;
+        height: 100%;
+        right: 0;
+        top: 0;
+        border-radius: 4px;
+        transition: all 0.2s ease-in-out;
+        z-index: -1;
+    }
+    
+    &:hover {
+        &::before {
+            width: 100%;
+        }
+    }
+}
+
+// 	TRANSLATE FIVE
+.translateSix {
+    text-decoration: none;
+    position: relative;
+    color: #fff;
+    font-family: $poppinsBold;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 1em 2em;
+    z-index: 1;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        background-image: $backgroundMulticolored;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: 10% 0;
+        width: 100%;
+        height: 0%;
+        right: 0;
+        top: 0;
+        border-radius: 4px;
+        transition: all 0.2s ease-in-out;
+        z-index: -1;
+    }
+    
+    &:hover {
+        &::before {
+            height: 100%;
+        }
+    }
+}
+
+// 	FADE ONE
+.fadeOne {
+    text-decoration: none;
+    position: relative;
+    color: #fff;
+    font-family: $poppinsBold;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 1em 2em;
+    z-index: 1;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        background-image: $backgroundMulticolored;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: 10% 0;
+        width: 100%;
+        height: 100%;
+        right: 0;
+        top: 0;
+        border-radius: 4px;
+        transition: all 0.2s ease-in-out;
+        z-index: -1;
+    }
+    
+    &:hover {
+        &::before {
+            opacity: 0;
+        }
+    }
+}
+
+// 	FADE TWO
+.fadeTwo {
+    text-decoration: none;
+    position: relative;
+    color: #fff;
+    font-family: $poppinsBold;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 1em 2em;
+    z-index: 1;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        background-image: $backgroundMulticolored;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: 10% 0;
+        width: 100%;
+        height: 100%;
+        right: 0;
+        top: 0;
+        border-radius: 4px;
+        transition: all 0.2s ease-in-out;
+        z-index: -1;
+        opacity: 0;
+    }
+    
+    &:hover {
+        &::before {
+            opacity: 1;
+        }
+    }
+}
+
+// 	ZOOM ONE
+.zoomOne {
+    text-decoration: none;
+    position: relative;
+    color: #fff;
+    font-family: $poppinsBold;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 1em 2em;
+    z-index: 1;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        background-image: $backgroundMulticolored;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: 10% 0;
+        width: 100%;
+        height: 100%;
+        right: 0;
+        top: 0;
+        border-radius: 4px;
+        transition: all 0.2s ease-in-out;
+        z-index: -1;
+    }
+    
+    &:hover {
+        &::before {
+            transform: scale(0);
+        }
+    }
+}
+
+// 	ZOOM TWO
+.zoomTwo {
+    text-decoration: none;
+    position: relative;
+    color: #fff;
+    font-family: $poppinsBold;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 1em 2em;
+    z-index: 1;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        background-image: $backgroundMulticolored;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: 10% 0;
+        width: 100%;
+        height: 100%;
+        right: 0;
+        top: 0;
+        border-radius: 4px;
+        transition: all 0.2s ease-in-out;
+        transform: scale(0);
+        z-index: -1;
+    }
+    
+    &:hover {
+        &::before {
+            transform: scale(1);
+        }
+    }
+}
