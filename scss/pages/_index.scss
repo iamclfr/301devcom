@@ -64,7 +64,70 @@ body {
             z-index: 0;
 
             .section-container {
-                padding: 8em 0 0 0;
+                padding: 8em 0 2em 0;
+            }
+        }
+
+        #cta-contact {
+            .section-container {
+                background-color: $backgroundDark;
+                position: relative;
+                justify-content: center;
+                align-items: center;
+                margin: 4em auto;
+
+                span {
+                    position: absolute;
+                    top: 1.5em;
+                    font-family: $indieFlower;
+                    font-size: 25px;
+                    color: $backgroundLight;
+
+                }
+
+                h2 {
+                    font-family: $indieFlower;
+                    font-size: 50px;
+                    color: $backgroundLight;
+                    width: 100%;
+                    text-align: center;
+                }
+
+                #contactMe {
+                    margin: 0;
+                }
+            }
+        }
+
+        #actuality {
+            position: relative;
+            margin: 0 auto;
+            background-color: $backgroundDark;
+            z-index: 0;
+
+            .section-title_right {
+                left: 12%;
+                right: inherit;
+            }
+
+            .section-container {
+                padding: 8em 0 4em 0;
+            }
+        }
+
+        #contact {
+            position: relative;
+            margin: 0 auto;
+            background-color: $backgroundLight;
+            z-index: 0;
+
+            .section-title_left {
+                left: inherit;
+                right: 12%;
+            }
+
+            .section-container {
+                padding: 2em 0 2em 0;
             }
         }
     }

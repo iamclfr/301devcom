@@ -1,0 +1,126 @@
+footer {
+	background-color: $backgroundDark;
+    .navbar {
+		display: flex;
+		align-items: center;
+		padding: 2em 0 2em 1em;
+		max-width: 100%;
+		margin: auto;
+		position: relative;
+		
+		.logo {
+			width: 100%;
+			max-width: 7%;
+			
+			a {
+				text-decoration: none;
+				position: relative;
+
+				.logo-hovered,.logo-hover {
+					width: 100%;
+					height: auto;
+				}
+
+				.logo-hovered {
+					transform: scale(0);
+					transition: all .3s cubic-bezier(1, 0.83, 0.85, 0.09);
+				}
+
+				.logo-hover {
+					position: absolute;
+					left: 0;
+					background-color: $backgroundDark;
+					opacity: 1;
+					transition: all .4s cubic-bezier(1, 0.83, 0.85, 0.09);
+				}
+
+				&:hover {
+					.logo-hovered {
+						transform: scale(1.1);
+					}
+					.logo-hover {
+						opacity: 0;
+						transform: scale(1.5);
+					}
+				}
+			}
+		}
+		
+		.links {
+			margin-left: 2em;
+			
+			.hamburger {
+				display: none;
+				cursor: pointer;
+			}
+			
+			a {
+				text-decoration: none;
+				color: #fff;
+				margin-right: 1em;
+				font-family: $poppinsBold;
+				padding-bottom: .3em;
+				background: linear-gradient(to top, #F31B5A 0%, #F31B5A 10%, transparent 10.01%) no-repeat left bottom /0 100%;
+				color: #fff;
+				height: 2em;
+				transition: all .5s cubic-bezier(0.57, 0.84, 0.57, 0.13);
+				
+				&:hover {
+					background-size: 80% 100%;
+				}
+			}
+		}
+		
+		.backtotop {
+			position: fixed;
+			right: 2em;
+			z-index: 9999;
+            bottom: 2em;
+				a {
+				text-decoration: none;
+				color: #fff;
+				font-weight: bold;
+				padding: .7em 1em;
+				border: 2px solid $backgroundPink;
+                background-color: $backgroundPink;
+				border-radius: $borderRad;
+				position: relative;
+				box-shadow: 2px 2px 10px 0em #f31b5abf;
+
+                &::after {
+                    content: "On remonte ?";
+                    background-color: #f31b5a;
+                    height: 49px;
+                    border-radius: 4px 0 0 4px;
+                    position: absolute;
+                    left: -7.5em;
+                    top: 0;
+                    bottom: -10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-weight: 900;
+                    text-transform: uppercase;
+                    visibility: hidden;
+                    width: 130px;
+                    opacity: 0;
+					box-shadow: 2px 2px 10px 0em #f31b5abf;
+                    transition: all .2s ease-in-out;
+                }
+
+                &:hover::after {
+                    top: -2px;
+                    bottom: 0;
+                    opacity: 1;
+                    visibility: visible;
+                }
+			}
+		}
+	}
+
+	p {
+		color: #fff;
+		text-align: center;
+		font-size: 12px;
+	}
+}

@@ -12,7 +12,7 @@
     <script src="./public/assets/js/app.js" defer></script>
 </head>
 <body>
-    <header id="header"><!-- LOAD HEADER --></header>
+    <header id="header"><!-- GET HEADER --></header>
 
     <main id="main">
         <section id="about-me">
@@ -89,10 +89,136 @@
                     </a>
                 </div>
                 <div class="containerBtn">	
-                        <a href="#showmore" id="loadMore">LOAD MORE</a>
+                        <a href="#showmore" class="loadMore" title="Cliquez ici pour charger plus de projets">LOAD MORE</a>
                 </div>
             </div>
         </section>
+
+        <section id="cta-contact">
+            <div class="section-container">
+                <span>Pour plus d'informations</span>
+                <h2>Contactez-moi !</h2>
+                <a href="#contact" id="contactMe" class="zoomTwo" title="Cliquez ici pour aller au formulaire de contact">C'est juste ici !</a>
+            </div>
+        </section>
+
+        <section id="actuality">
+            <div class="section-title_right">
+                <h2>Actualités</h2>
+            </div>
+
+            <div class="section-container">
+                <div class="card">
+                    <a href="#" class="link">
+                        <div class="image">
+                            <img src="https://www.301dev.com/codepenimg/301dev.com.400x300.png" alt="template 400x300">
+                        </div>
+                        <div class="content">
+                            <h3 class="title">Lorem ipsum</h3>
+                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum sed ante id malesuada Pellentesque sit amet libero et neque convallis ultrices ac sit amet justo.</p>
+                            <a href="#" class="showMore">Show More</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#" class="link">
+                        <div class="image">
+                            <img src="https://www.301dev.com/codepenimg/301dev.com.400x300.png" alt="template 400x300">
+                        </div>
+                        <div class="content">
+                            <h3 class="title">Lorem ipsum</h3>
+                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum sed ante id malesuada Pellentesque sit amet libero et neque convallis ultrices ac sit amet justo.</p>
+                            <a href="#" class="showMore">Show More</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#" class="link">
+                        <div class="image">
+                            <img src="https://www.301dev.com/codepenimg/301dev.com.400x300.png" alt="template 400x300">
+                        </div>
+                        <div class="content">
+                            <h3 class="title">Lorem ipsum</h3>
+                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum sed ante id malesuada Pellentesque sit amet libero et neque convallis ultrices ac sit amet justo.</p>
+                            <a href="#" class="showMore">Show More</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#" class="link">
+                        <div class="image">
+                            <img src="https://www.301dev.com/codepenimg/301dev.com.400x300.png" alt="template 400x300">
+                        </div>
+                        <div class="content">
+                            <h3 class="title">Lorem ipsum</h3>
+                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum sed ante id malesuada Pellentesque sit amet libero et neque convallis ultrices ac sit amet justo.</p>
+                            <a href="#" class="showMore">Show More</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="containerBtn">	
+                        <a href="#showmore" class="loadMore" title="Cliquez ici pour charger plus d'actualités">LOAD MORE</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="section-title_left">
+                <h2>Contact</h2>
+            </div>
+
+            <div class="section-container">
+                <form action="#" method="post" id="contact-form">
+                    <div class="input-group">
+                        <input type="text" name="lastname" id="lastname" placeholder="Votre nom *" title="Renseignez ici votre nom de famille" required>
+                        <input type="text" name="name" id="name" placeholder="Votre prénom *" title="Renseignez ici votre prénom" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" name="email" id="email" placeholder="Votre Email *" title="Renseignez ici votre email pour pouvoir être contacté" required>
+                        <input type="tel" name="phone" id="phone" placeholder="Votre téléphone" title="Renseignez ici votre numéro téléphone si vous souhaitez être contacté par message">
+                    </div>
+                    <div class="input-group">
+                        <select name="subject" id="subject" title="Sélectionnez dans la liste déroulante le sujet de votre demande" required>
+                            <option value="0" disabled selected >Que voulez vous savoir ? *</option>
+                            <option value="1">Demande d'information sur Clément Lafargue</option>
+                            <option value="2">Demande d'information sur le site web</option>
+                            <option value="3">Signaler un BUG sur 301dev.com</option>
+                            <option value="4">Autre ...</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message *" title="Renseignez ici le contenu de votre demande de contact" required></textarea>
+                    </div>
+                    <div class="input-group">
+                        <select name="sondage" id="sondage" title="Sélectionnez dans la liste déroulante la façon dont vous avez découvert 301dev.com" required>
+                            <option value="0" disabled selected >Comment êtes vous arrivé ici ? *</option>
+                            <option value="1">Depuis une recherche sur Google, DuckDuckGo, Ecosia ...</option>
+                            <option value="2">Une personne de votre entourage vous as parlé de 301dev.com</option>
+                            <option value="3">Depuis une publication sur un réseau social</option>
+                            <option value="4">Vous êtes tombé sur 301dev.com par hazard</option>
+                            <option value="5">Autre ...</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                       <input type="url" name="website" id="website" placeholder="Votre site web, GitHub, CodePen ..." title="Renseignez ici l'url de votre site web, GitHub, Codepen ...">
+                    </div>
+                    <div class="input-group">
+                        <div class="form-check">
+                            <input type="checkbox" name="rgpd" id="rgpd" required>
+                            <label for="rgpd" title="Cochez cette case pour accepter le règlement général sur la protection des données">En cochant cette case et en soumettant ce formulaire, j'accepte que mes données personnelles soient utilisées pour me recontacter dans le cadre de ma demande indiquée dans ce formulaire. Aucun autre traitement ne sera effectué avec mes informations.</label>
+                        </div>
+                     </div>
+                    <div class="input-group">
+                        <input type="reset" value="Effacer le formulaire" title="Cliquez ici pour effacer tout le contenu du formulaire de contact">
+                        <input type="submit" value="Envoyer" title="Cliquez ici pour envoyer le formulaire de contact">
+                     </div>
+                </form>
+            </div>
+        </section>
     </main>
+
+    <footer id="footer">
+        <!-- GET FOOTER -->
+    </footer>
 </body>
 </html>
